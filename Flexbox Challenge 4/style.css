@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #f3eed9;
+    min-height: 660px;
+}
+
+.container {
+    max-width: 1128px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    text-align: center;
+    width: 75%;
+    margin: 0 auto;
+}
+
+header p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+}
+
+header h1 {
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    font-size: 60px;
+    color: #824936;
+    padding-top: 8px;
+}
