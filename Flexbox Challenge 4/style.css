@@ -42,3 +42,28 @@ header h1 {
     color: #824936;
     padding-top: 8px;
 }
+
+.primary-content {
+    margin-top: 80px;
+    margin-bottom: 120px;
+}
+
+.primary-content-title {
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    font-size: 36px;
+    color: #824936;
+    margin-bottom: 40px;
+}
+.primary-content-text {
+    display: flex;
+    gap: 5%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+}
+
+.first-photo {
+    background-color: #222c2a;
+}
