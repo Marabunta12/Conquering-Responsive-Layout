@@ -21,6 +21,15 @@
     justify-content: center;
 }
 
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col {
+    width: 45%;
+}
+
 .title {
     text-align: center;
     width: 75%;
@@ -57,13 +66,38 @@ header h1 {
     margin-bottom: 40px;
 }
 .primary-content-text {
-    display: flex;
-    gap: 5%;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 21px;
 }
 
-.first-photo {
+.first-photo-section {
     background-color: #222c2a;
+    padding-top: 82px;
+    padding-bottom: 80px;
+}
+
+.second-photo-section {
+    background-color: #824936;
+    padding-top: 82px;
+    padding-bottom: 80px;
+}
+
+.photo-title {
+    font-family: "Playfair Display", serif;
+    font-weight: 900;
+    font-size: 36px;
+    color: #f3eed9;
+    margin-bottom: 24px;
+}
+
+.photo-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    color: white;
+}
+
+.img {
+    align-self: flex-start;
 }
